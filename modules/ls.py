@@ -10,8 +10,8 @@ myDict = {
 	'Ctrl + Z' : 'exit'
 }
 
-def __list():
-
+def list():
+    
 	for i, j in myDict.items():
 		print(f'{Fore.LIGHTRED_EX}{i} {Fore.RESET}->>> {Fore.LIGHTBLUE_EX}{j}')
 	print("\n")

@@ -11,8 +11,8 @@ def __console(*argv):
 	try:
 		while True:
 			print(f'{Fore.LIGHTGREEN_EX}{getcwd()} {Fore.LIGHTRED_EX}->', end=" ")
-			cmd:str = list(input().strip().lower().split())
-			kword.__kword(cmd[0]);
+			cmd = list(input().strip().lower().split())
+			kword.kword(cmd[0]);
 
 			if len(cmd) == 2 and cmd[0] == 'del':
 				try:
