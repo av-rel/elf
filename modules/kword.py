@@ -1,12 +1,15 @@
-#Modules of keywords of shell console
+from modules import ls
+
 
 def kword(args):
 
-	from modules import ls
-
-	if args == "help":
-		ls.list();
-	elif args == "del" or "ls" or "make" or "self" or "hello":
-		pass
-	else:
-		print('Invalid command | Input help for instructions\n')
+    if args == "--help":
+        ls.list()
+        return
+    elif args == "-h":
+        ls.list()
+        return
+    elif args == "del" or "ls" or "make" or "self" or "hello":
+        return
+    
+    print("Invalid command")

@@ -6,8 +6,7 @@ myDict = {
 	'del <file>': 'removes a file',
 	'make <file>' : 'makes a file',
 	'ls' : 'list the files and folder in current directory',
-	'self' : 'gives current position',
-	'Ctrl + Z' : 'exit'
+	'exit' : 'exit'
 }
 
 def list():

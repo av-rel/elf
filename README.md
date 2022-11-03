@@ -6,6 +6,4 @@
 2. ***del*** **-used for deleting files**
 3. ***make*** **-used for making files**
 4. ***ls*** **-listing files in current directory including hidden ones**
-5. ***self*** **-for current directory**
-
-> .py code has been deprecated but .exe works well
+5. **exit** **-exit**
